@@ -1,0 +1,23 @@
+#mybooks, #mybooks td{
+    border: 1px solid green;
+
+}
+
+#mybooks th {
+    background-color: darkgreen;
+    color: white;
+}
+
+#mybooks tr:nth-of-type(even){
+    background-color: #b3e6b3;
+    color: darkgreen;
+}
+
+#mybooks tr:nth-of-type(odd){
+    background-color: #eff5ef;
+    color: darkgreen;
+}
+
+#mybooks{
+    margin: auto;
+}
